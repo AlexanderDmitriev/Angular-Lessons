@@ -1,1 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --dark-color: #000000;
+  --light-color: #ffffff;
+  --primary-color:#AE7AFF;
+}
+
+main {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: inherit;
+  position: relative;
+}
+p {
+  margin: 0;
+}
+h1 {
+    font-size: 3.125rem;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -0.125rem;
+    margin: 0;
+    font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
+  }
+body {
+  background: var(--dark-color);
+  color: var(--light-color);
+}
+
+.button{
+    border: none;
+    background: var(--primary-color);
+    color: var(--dark-color);
+    padding: 10px 20px;
+    font-weight: 700;
+    font-style: 14px;
+    line-height: 24px;
+    cursor: pointer;
+};

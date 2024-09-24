@@ -1,7 +1,6 @@
-
 <main class="main">
-  <app-profie-card></app-profie-card>
-  
+  <div class="profile-card-wrapper"></div>
+  @for (profile of profiles; track profile.id) {
+  <app-profie-card [profile]="profile"> </app-profie-card>}
 </main>
-<pre>{{profiles|json}}</pre>
 <router-outlet />

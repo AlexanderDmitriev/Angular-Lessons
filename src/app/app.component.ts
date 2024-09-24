@@ -2,13 +2,12 @@ import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { ProfieCardComponent } from './common-ui/profie-card/profie-card.component';
 import { ProfileService } from './data/services/profile.service';
-import { JsonPipe } from '@angular/common';
 import { IProfile } from './data/interfaces/profile.interface';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ProfieCardComponent,JsonPipe],
+  imports: [RouterOutlet, ProfieCardComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })

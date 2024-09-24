@@ -8,9 +8,6 @@
 
 main {
   min-height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 1rem;
   box-sizing: inherit;
   position: relative;
@@ -29,6 +26,8 @@ body {
   font-family: "JetBrains Mono", sans-serif;
   background: var(--dark-color);
   color: var(--light-color);
+  margin: 0;
+  padding: 0;
 }
 
 .button {

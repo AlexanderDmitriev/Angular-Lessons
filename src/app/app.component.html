@@ -1,6 +1,3 @@
 <main class="main">
-  <div class="profile-card-wrapper"></div>
-  @for (profile of profiles; track profile.id) {
-  <app-profie-card [profile]="profile"> </app-profie-card>}
+  <router-outlet />
 </main>
-<router-outlet />

@@ -24,11 +24,11 @@ h1 {
 }
 body {
   font-family: "JetBrains Mono", sans-serif;
-  background: var(--dark-color);
+  //background: var(--dark-color);
   color: var(--light-color);
   margin: 0;
   padding: 0;
-  
+  background-image: url(/assets/images/gradient28.jpg);
 }
 
 .button {
@@ -43,13 +43,54 @@ body {
   border-radius: 4px;
 }
 
-.title-h6{
+.title-h6 {
   font-style: 18px;
   line-height: 24px;
   font-weight: 800;
-};
+}
 
-.subtitle{
+.subtitle {
   font-style: 14px;
   line-height: 20px;
-};
+}
+
+.h1 {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 800;
+}
+
+.tt-control-label {
+  display: block;
+  margin-bottom: 32px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.tt-input {
+  margin-top: 8px;
+  display: block;
+  border: 1px solid var(--light-color);
+  border-radius: 4px;
+  padding: 12px 20px;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  width: 256px;
+}
+
+.btn{
+  width: 256px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--primary-color);
+  color: var(--dark-color);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+
+}

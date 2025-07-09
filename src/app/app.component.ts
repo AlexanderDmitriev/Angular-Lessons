@@ -18,5 +18,6 @@ export class AppComponent {
     this.profileService
       .getTestAccounts()
       .subscribe((val:IProfile[]) => this.profiles=val);
+      //subscribe работает аналогично fetch 
   }
 }

@@ -6,7 +6,7 @@ import { IProfile } from '../interfaces/profile.interface';
   providedIn: 'root',
 })
 export class ProfileService {
-  http:HttpClient=inject(HttpClient)
+  http:HttpClient=inject(HttpClient) //запрашиваем у Angular сущность HttpClient, чтобы запросить данные с сервера
   baseApiUrl:string='https:/icherniakov.ru/yt-course/account';
   constructor() {}
 
